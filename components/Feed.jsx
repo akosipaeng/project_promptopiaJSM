@@ -66,7 +66,7 @@ const Feed = () => {
     const searchResult = filterPrompts(tagName);
     setSearchedResults(searchResult);
   };
-
+  console.log(allPosts);
   return (
     <section className="feed">
       <form className="relative w-full flex-center">
